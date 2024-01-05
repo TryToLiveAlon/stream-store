@@ -50,8 +50,8 @@ BOT_USERNAME = environ.get("BOT_USERNAME", "Ai_file_store_bot") # your bot usern
 PICS = (environ.get('PICS', 'https://telegra.ph/AI-11-01-4')).split() # Bot Start Picture
 
 # Auto Delete Information
-AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
-AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
+AUTO_DELETE = int(environ.get("AUTO_DELETE", "20")) # Time in Minutes
+AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1200")) # Time in Seconds
 
 # Channel Information
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001957898674"))
@@ -64,16 +64,9 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-
-# Enable - True or Disable - False
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
-# File Stream Config
 class Var(object):
     MULTI_CLIENT = False
     name = str(getenv('name', 'filetolinkvjbot'))
@@ -82,7 +75,7 @@ class Var(object):
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002090334807'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
-    PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
+    PING_INTERVAL = int(environ.get("PING_INTERVAL", "1800"))  # 30 minutes
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
     if 'DYNO' in environ:
@@ -97,10 +90,3 @@ class Var(object):
         URL = "https://git.heroku.com/filestorstream.git"
     else:
         URL = "https://filestorstream-7a51a3418065.herokuapp.com/"
-
-
-
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-    
