@@ -15,8 +15,8 @@
 - [x] Stram Feature Added With Many Player Support
 - [x] Custom Url Shortner Support Any User Can Add His Own Shortner
 - [x] Batch Support Added, Any User Can Use Batch By Making Bot Admin In His File Store Channel
-- [x] Clone Feature Added [ Premium Feature] 
-- [x] Auto Delete Feature Added
+- [x] Clone Feature Added, Anyone can Make her own Bot File Store Bot
+- [x] Auto Delete Feature Added 5M SETED
 - [x] Custom Start Message With Picture And Buttons
 </b>
 </details>
@@ -47,11 +47,11 @@
 
 <b><details><summary>Tap On Me For Demo Bot</summary></b>
 
-<img src="https://graph.org/file/bb9c59043c52072e8dc93.jpg" alt="Bot Demo">
-<img src="https://graph.org/file/295e41dfab93acf42a111.jpg" alt="Bot Demo">
-<img src="https://graph.org/file/ccc1b6ab4967a7d155ab8.jpg" alt="Bot Demo">
-<img src="https://graph.org/file/75db5257c39436b734b49.jpg" alt="Bot Demo">
-<img src="https://graph.org/file/1ce62a17012ed5723aaca.jpg" alt="Bot Demo">
+<img src="https://i.ibb.co/ck2yFBT/Screenshotby-20240106-224953.jpg" alt="Bot Demo">
+<img src="https://i.ibb.co/Bsxtbm3/Screenshotby-20240106-224957.jpg" alt="Bot Demo">
+<img src="https://i.ibb.co/TRKKRZJ/Screenshotby-20240106-225004.jpg" alt="Bot Demo">
+<img src="https://i.ibb.co/SQC2fbJ/Screenshotby-20240106-225011.jpg" alt="Bot Demo">
+<img src="https://i.ibb.co/ckbRzhz/Screenshotby-20240106-225051.jpg" alt="Bot Demo">
 </details>
 
 ## Command To Use Bot
