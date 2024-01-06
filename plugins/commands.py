@@ -42,7 +42,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⭕ AI BOTZ MENU ⭕', url='https://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('⭕ AI BOTZ MENU ⭕', url='https://t.me/AI_BOTZ_MENU_BOT')
             ],[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/AI_BOTZ_SUPPORT'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/the_ai_botz')
