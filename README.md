@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://i.ibb.co/C1fJXk9/20240106-011635.png" alt="VJ-FILE-STORE-BOT Logo">
+  <img src="https://i.ibb.co/C1fJXk9/20240106-011635.png" alt="AI FILE STORE BOT LOGO">
 </p>
 <h1 align="center">
-  VJ FILE STORE BOT
+  AI FILE STORE BOT
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ-FILE-STORE-BOT;A+Highly+Advance+File+Store+Bot;Made+By+Yt-@Tech_VJ!;With+Clone+Feature+Stream/Download+Link;Custom+Url+Shortner+Auto+Delete+Feature;A+Bot+With+Fully+Advanced+Feature!;Must+Give+Credit+To+Tech+VJ;Because+He+Public+The+Paid+Repo;Thank+You!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+AI-FILE-STORE-BOT;A+Highly+Advance+File+Store+Bot;Made+By+AI+BOTZ!;With+Clone+Feature+Stream/Download+Link;Custom+Url+Shortner+Auto+Delete+Feature;A+Bot+With+Fully+Advanced+Feature!;Must+Give+Credit+To+AI+BOTZ;Because+He+Public+The+Paid+Repo;Thank+You!)
 </p>
 
 ## Features
