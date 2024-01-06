@@ -10,7 +10,7 @@ from config import DB_URI as MONGO_URL
 from pymongo import MongoClient
 
 mongo_client = MongoClient(MONGO_URL)
-mongo_db = mongo_client["cloned_vjbotz"]
+mongo_db = mongo_client["cloned_aibotz"]
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
