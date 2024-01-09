@@ -16,14 +16,14 @@ def is_enabled(value, default):
     else:
         return default
 
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-ADMINS = int(environ.get("ADMINS", ""))
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
+API_ID = int(environ.get("API_ID", "25443947"))
+API_HASH = environ.get("API_HASH", "ab4cd800dac7c9a36314ee83800adba8")
+ADMINS = int(environ.get("ADMINS", "6013614984"))
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://haroonhassan2:haroonhassan2@haroonhassan2.z3j6yxu.mongodb.net/?retryWrites=true&w=majority")
 CDB_NAME = environ.get("CDB_NAME", "haroonhassan1")
-DB_URI = environ.get("DB_URI", "")
+DB_URI = environ.get("DB_URI", "mongodb+srv://haroonhassan1:haroonhassan1@haroonhassan1.hdbc1p4.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "haroonhassan2")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+BOT_TOKEN = environ.get("BOT_TOKEN", "6836440187:AAFm-7HfwlY_0N4QY4YasiK936QfJOs3b54")
 BOT_USERNAME = environ.get("BOT_USERNAME", "Ai_file_store_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://telegra.ph/AI-11-01-4')).split() # Bot Start Picture
 AUTO_DELETE = int(environ.get("AUTO_DELETE", "5")) # Time in Minutes
