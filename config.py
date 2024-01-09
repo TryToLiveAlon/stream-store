@@ -55,6 +55,6 @@ class Var(object):
     FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
     HAS_SSL=bool(getenv('HAS_SSL',False))
     if HAS_SSL:
-        URL = "https://git.heroku.com/filestorstream.git"
+        URL = "https://git.heroku.com/file-store-with-stream-clone.git"
     else:
-        URL = "https://filestorstream-7a51a3418065.herokuapp.com/"
+        URL = "https://file-store-with-stream-clone-701e156aa9aa.herokuapp.com/"
