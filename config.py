@@ -23,7 +23,7 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://haroonhassan2:haroonha
 CDB_NAME = environ.get("CDB_NAME", "haroonhassan1")
 DB_URI = environ.get("DB_URI", "mongodb+srv://haroonhassan1:haroonhassan1@haroonhassan1.hdbc1p4.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "haroonhassan2")
-BOT_TOKEN = environ.get("BOT_TOKEN", "6836440187:AAFm-7HfwlY_0N4QY4YasiK936QfJOs3b54")
+BOT_TOKEN = environ.get("BOT_TOKEN", "6836440187:AAG-5yidFRNKRNz9eekr8PJeXhMMHMBQRDQ")
 BOT_USERNAME = environ.get("BOT_USERNAME", "Ai_file_store_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://telegra.ph/AI-11-01-4')).split() # Bot Start Picture
 AUTO_DELETE = int(environ.get("AUTO_DELETE", "5")) # Time in Minutes
