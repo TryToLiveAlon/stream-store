@@ -19,10 +19,10 @@ def is_enabled(value, default):
 API_ID = int(environ.get("API_ID", "29661201"))
 API_HASH = environ.get("API_HASH", "ce10f942d9acb7aef82cc1af2f72e914")
 ADMINS = int(environ.get("ADMINS", "6655844826"))
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://haroonhassan2:haroonhassan2@haroonhassan2.z3j6yxu.mongodb.net/?retryWrites=true&w=majority")
-CDB_NAME = environ.get("CDB_NAME", "haroonhassan1")
-DB_URI = environ.get("DB_URI", "mongodb+srv://haroonhassan1:haroonhassan1@haroonhassan1.hdbc1p4.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = environ.get("DB_NAME", "haroonhassan2")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://haroonhassan5:haroonhassan5@haroonhassan5.3h2pmhk.mongodb.net/?retryWrites=true&w=majority")
+CDB_NAME = environ.get("CDB_NAME", "haroonhassan5")
+DB_URI = environ.get("DB_URI", "mongodb+srv://haroonhassan5:haroonhassan5@haroonhassan5.3h2pmhk.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = environ.get("DB_NAME", "haroonhassan5")
 BOT_TOKEN = environ.get("BOT_TOKEN", "6492431239:AAENl-kRCeN5kwn-6KnAHcQXQXBJDbLvDuU")
 BOT_USERNAME = environ.get("BOT_USERNAME", "THE_AI_FILE_STORE_BOT") # your bot username without @
 PICS = (environ.get('PICS', 'https://telegra.ph/AI-11-01-4')).split() # Bot Start Picture
