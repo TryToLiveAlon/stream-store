@@ -16,20 +16,20 @@ def is_enabled(value, default):
     else:
         return default
 
-API_ID = int(environ.get("API_ID", "25443947"))
-API_HASH = environ.get("API_HASH", "ab4cd800dac7c9a36314ee83800adba8")
-ADMINS = int(environ.get("ADMINS", "6013614984"))
+API_ID = int(environ.get("API_ID", "29661201"))
+API_HASH = environ.get("API_HASH", "ce10f942d9acb7aef82cc1af2f72e914")
+ADMINS = int(environ.get("ADMINS", "6655844826"))
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://haroonhassan2:haroonhassan2@haroonhassan2.z3j6yxu.mongodb.net/?retryWrites=true&w=majority")
 CDB_NAME = environ.get("CDB_NAME", "haroonhassan1")
 DB_URI = environ.get("DB_URI", "mongodb+srv://haroonhassan1:haroonhassan1@haroonhassan1.hdbc1p4.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "haroonhassan2")
-BOT_TOKEN = environ.get("BOT_TOKEN", "6836440187:AAG-5yidFRNKRNz9eekr8PJeXhMMHMBQRDQ")
+BOT_TOKEN = environ.get("BOT_TOKEN", "6492431239:AAENl-kRCeN5kwn-6KnAHcQXQXBJDbLvDuU")
 BOT_USERNAME = environ.get("BOT_USERNAME", "Ai_file_store_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://telegra.ph/AI-11-01-4')).split() # Bot Start Picture
 AUTO_DELETE = int(environ.get("AUTO_DELETE", "5")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "300")) # Time in Seconds
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001957898674"))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001957898674')).split()]
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002109034059"))
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002109034059')).split()]
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
@@ -40,7 +40,7 @@ class Var(object):
     name = str(getenv('name', 'filestorewithlink'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001957898674'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002132568550'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1800"))  # 30 minutes
