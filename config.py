@@ -52,9 +52,9 @@ class Var(object):
     
     else:
         ON_HEROKU = False
-    FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
+    FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.koyeb.com'
     HAS_SSL=bool(getenv('HAS_SSL',False))
     if HAS_SSL:
-        URL = "https://git.heroku.com/file-stire01.git"
+        URL = "https://extreme-bel-hfjeiowkekdkkfk.koyeb.app"
     else:
-        URL = "https://file-stire01-e7d212cac4ab.herokuapp.com/"
+        URL = "https://extreme-bel-hfjeiowkekdkkfk.koyeb.app"
