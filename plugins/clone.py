@@ -18,7 +18,7 @@ async def clone(client, message):
 
 
 
-@Client.on_message((filters.regex(r'\d[0-9]{8,10}:[0-9A-Za-z_-]{35}')) & filters.private)
+@Client.on_message((filters.regex(r'\d[0-9]{8,10}:[0-9A-Za-z_-]{35}')) & filters.private) & filters.user(ADMINS)
 async def on_clone(client, message):  
     try:
         user_id = message.from_user.id
@@ -64,7 +64,7 @@ async def on_clone(client, message):
     except Exception as e:
         logging.exception("Error while handling message.")
 
-@Client.on_message(filters.command("deletecloned") & filters.private)
+@Client.on_message(filters.command("deletecloned") & filters.private) & filters.user(ADMINS)
 async def delete_cloned_bot(client, message):
     try:
         bot_token = re.findall(r'\d[0-9]{8,10}:[0-9A-Za-z_-]{35}', message.text, re.IGNORECASE)
