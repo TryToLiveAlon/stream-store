@@ -12,13 +12,13 @@ mongo_client = MongoClient(MONGO_URL)
 mongo_db = mongo_client["cloned_aibotz"]
 mongo_collection = mongo_db[DB_NAME]
 
-@Client.on_message(filters.command("clone") & filters.private)
+@Client.on_message(filters.command("clone") & filters.private) & filters.user(ADMINS)
 async def clone(client, message):
     await message.reply_text(script.CLONE_TXT)
 
 
 
-@Client.on_message((filters.regex(r'\d[0-9]{8,10}:[0-9A-Za-z_-]{35}')) & filters.private) & filters.user(ADMINS)
+@Client.on_message((filters.regex(r'\d[0-9]{8,10}:[0-9A-Za-z_-]{35}')) & filters.private)
 async def on_clone(client, message):  
     try:
         user_id = message.from_user.id
