@@ -12,7 +12,7 @@ mongo_client = MongoClient(MONGO_URL)
 mongo_db = mongo_client["cloned_aibotz"]
 mongo_collection = mongo_db[DB_NAME]
 
-@Client.on_message(filters.command("clone") & filters.private) & filters.user(ADMINS)
+@Client.on_message(filters.command("clone") & filters.private)
 async def clone(client, message):
     await message.reply_text(script.CLONE_TXT)
 
@@ -64,7 +64,7 @@ async def on_clone(client, message):
     except Exception as e:
         logging.exception("Error while handling message.")
 
-@Client.on_message(filters.command("deletecloned") & filters.private) & filters.user(ADMINS)
+@Client.on_message(filters.command("deletecloned") & filters.private)
 async def delete_cloned_bot(client, message):
     try:
         bot_token = re.findall(r'\d[0-9]{8,10}:[0-9A-Za-z_-]{35}', message.text, re.IGNORECASE)
